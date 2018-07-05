@@ -95,6 +95,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Contact.cs" />
+    <Compile Include="Icon.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -107,6 +109,12 @@
     <None Include="SimpleContactManager_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\female-01.png" />
+    <Content Include="Assets\female-02.png" />
+    <Content Include="Assets\female-03.png" />
+    <Content Include="Assets\male-01.png" />
+    <Content Include="Assets\male-02.png" />
+    <Content Include="Assets\male-03.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
